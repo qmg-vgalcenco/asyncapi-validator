@@ -1,0 +1,25 @@
+asyncapi: 2.4.0
+
+info:
+  title: User Events
+  version: 1.0.0
+
+channels:
+  user-events:
+    description: User Events
+    publish:
+      message:
+        messageId: CreateUserEvent
+        payload:
+          type: object
+          properties:
+            userId:
+              type: string
+            userEmail:
+              type: string
+            phoneNumber:
+              type: string
+          required:
+            - userId
+            - userEmail
+            - notDefinedField

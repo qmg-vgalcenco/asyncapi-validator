@@ -1,0 +1,11 @@
+{
+  "name": "asyncapi-validator",
+  "version": "1.0.0",
+  "description": "Test asyncapi-validator",
+  "main": "index.js",
+  "author": "Vladimir Galcenco",
+  "license": "MIT",
+  "dependencies": {
+    "asyncapi-validator": "^4.0.0"
+  }
+}
